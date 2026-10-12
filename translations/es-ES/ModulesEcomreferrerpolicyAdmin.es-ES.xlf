@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file original="modules/ecom_referrerpolicy/ecom_referrerpolicy.php" source-language="en-US" target-language="es-ES" datatype="plaintext">
+    <body>
+      <trans-unit id="823410f4fd62e3e05137a56a3b0a612f">
+        <source>Referrer-Policy header</source>
+        <target>Cabecera Referrer-Policy</target>
+        <note>Context: ecom_referrerpolicy.php</note>
+      </trans-unit>
+      <trans-unit id="63cb7f06fcb5ce41a94712a1cfd0f038">
+        <source>Sends the Referrer-Policy HTTP header in the shop and in the back office, so that the back office address and its tokens do not leak through the Referer header.</source>
+        <target>Emite la cabecera HTTP Referrer-Policy en la tienda y en el panel, para que la dirección del panel y sus tokens no se filtren por la cabecera Referer.</target>
+        <note>Context: ecom_referrerpolicy.php</note>
+      </trans-unit>
+      <trans-unit id="d7ace4829d7773f32cc051c6572ca546">
+        <source>Are you sure you want to uninstall this module? The Referrer-Policy header will no longer be sent.</source>
+        <target>¿Seguro que quieres desinstalar este módulo? La cabecera Referrer-Policy dejará de emitirse.</target>
+        <note>Context: ecom_referrerpolicy.php</note>
+      </trans-unit>
+      <trans-unit id="efb81afa25e5b3ba8d0cb0cf0875b448">
+        <source>The value chosen for the shop is not a valid policy.</source>
+        <target>El valor elegido para la tienda no es una política válida.</target>
+        <note>Context: ecom_referrerpolicy.php</note>
+      </trans-unit>
+      <trans-unit id="f4a346a5a4fff65eb0826dfaa908c72f">
+        <source>The value chosen for the back office is not a valid policy.</source>
+        <target>El valor elegido para el panel no es una política válida.</target>
+        <note>Context: ecom_referrerpolicy.php</note>
+      </trans-unit>
+      <trans-unit id="200107f45d46462671c233ad2cfee763">
+        <source>The settings could not be saved: the database does not hold the values that were sent.</source>
+        <target>No se ha podido guardar la configuración: la base de datos no contiene los valores enviados.</target>
+        <note>Context: ecom_referrerpolicy.php</note>
+      </trans-unit>
+      <trans-unit id="70f5f8c67bab588cf1080730ff253d60">
+        <source>Settings saved and verified in the database.</source>
+        <target>Configuración guardada y comprobada en la base de datos.</target>
+        <note>Context: ecom_referrerpolicy.php</note>
+      </trans-unit>
+      <trans-unit id="f4f70727dc34561dfde1a3c529b6205c">
+        <source>Settings</source>
+        <target>Configuración</target>
+        <note>Context: ecom_referrerpolicy.php</note>
+      </trans-unit>
+      <trans-unit id="9f82518d468b9fee614fcc92f76bb163">
+        <source>Shop</source>
+        <target>Tienda</target>
+        <note>Context: ecom_referrerpolicy.php</note>
+      </trans-unit>
+      <trans-unit id="b28aaa7d2f8c959ac0a42ec3859a39b4">
+        <source>Back office</source>
+        <target>Panel de administración</target>
+        <note>Context: ecom_referrerpolicy.php</note>
+      </trans-unit>
+      <trans-unit id="8425cd1cfca02391560e6e451e0c70ba">
+        <source>Send the header in the shop</source>
+        <target>Emitir la cabecera en la tienda</target>
+        <note>Context: ecom_referrerpolicy.php</note>
+      </trans-unit>
+      <trans-unit id="0d25513c7bd61438fbf182af3cbe89f5">
+        <source>Adds Referrer-Policy to every page of the shop.</source>
+        <target>Añade Referrer-Policy a todas las páginas de la tienda.</target>
+        <note>Context: ecom_referrerpolicy.php</note>
+      </trans-unit>
+      <trans-unit id="6800918202924ea6033bbc6b8f8d15c3">
+        <source>Value for the shop</source>
+        <target>Valor para la tienda</target>
+        <note>Context: ecom_referrerpolicy.php</note>
+      </trans-unit>
+      <trans-unit id="08f643392a94225911faf1e1738ee29d">
+        <source>Recommended: strict-origin-when-cross-origin, which keeps analytics and affiliate tracking working.</source>
+        <target>Recomendado: strict-origin-when-cross-origin, que no rompe la analítica ni los afiliados.</target>
+        <note>Context: ecom_referrerpolicy.php</note>
+      </trans-unit>
+      <trans-unit id="77e7697753902ead77f800408f74d135">
+        <source>Send the header in the back office</source>
+        <target>Emitir la cabecera en el panel</target>
+        <note>Context: ecom_referrerpolicy.php</note>
+      </trans-unit>
+      <trans-unit id="c5aa2eef404fdec6b91539aba63f6a3f">
+        <source>Adds Referrer-Policy to every page of the back office, the login page included.</source>
+        <target>Añade Referrer-Policy a todas las páginas del panel, incluida la de acceso.</target>
+        <note>Context: ecom_referrerpolicy.php</note>
+      </trans-unit>
+      <trans-unit id="55f6622a26d4dc5f7bee91dadbce24f7">
+        <source>Value for the back office</source>
+        <target>Valor para el panel</target>
+        <note>Context: ecom_referrerpolicy.php</note>
+      </trans-unit>
+      <trans-unit id="cd8185867f16ec32a4af1cbd8e514d2c">
+        <source>Recommended: no-referrer, because the back office address is secret.</source>
+        <target>Recomendado: no-referrer, porque la dirección del panel es secreta.</target>
+        <note>Context: ecom_referrerpolicy.php</note>
+      </trans-unit>
+      <trans-unit id="33b1c9171f7a33beabff1eed19fd3501">
+        <source>no-referrer: the Referer header is never sent</source>
+        <target>no-referrer: la cabecera Referer no se envía nunca</target>
+        <note>Context: ecom_referrerpolicy.php</note>
+      </trans-unit>
+      <trans-unit id="a97ce4b4fc74684a3b13fb9af4c80bbd">
+        <source>same-origin: full address inside this site, nothing to other sites</source>
+        <target>same-origin: dirección completa dentro de este sitio, nada a otros sitios</target>
+        <note>Context: ecom_referrerpolicy.php</note>
+      </trans-unit>
+      <trans-unit id="ad56cc81a21175b832a3975ec6293b53">
+        <source>strict-origin: only the domain, and nothing when going from HTTPS to HTTP</source>
+        <target>strict-origin: solo el dominio, y nada al pasar de HTTPS a HTTP</target>
+        <note>Context: ecom_referrerpolicy.php</note>
+      </trans-unit>
+      <trans-unit id="2e52462a87bb605e9cef5e8eac37db18">
+        <source>strict-origin-when-cross-origin: full address inside this site, only the domain to other sites</source>
+        <target>strict-origin-when-cross-origin: dirección completa dentro de este sitio, solo el dominio a otros sitios</target>
+        <note>Context: ecom_referrerpolicy.php</note>
+      </trans-unit>
+      <trans-unit id="e59fa8e6cd53dfc94b57738868cf9acb">
+        <source>origin: only the domain, always</source>
+        <target>origin: solo el dominio, siempre</target>
+        <note>Context: ecom_referrerpolicy.php</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="modules/ecom_referrerpolicy/views/templates/admin/configure.tpl" source-language="en-US" target-language="es-ES" datatype="plaintext">
+    <body>
+      <trans-unit id="54f7e3b4cf307c18bcb84c058ffe03d5">
+        <source>The back office already has another Referrer-Policy header set from PHP and the module leaves it untouched. Its value:</source>
+        <target>El panel ya tiene otra cabecera Referrer-Policy puesta desde PHP y el módulo no la toca. Su valor:</target>
+        <note>Context: views/templates/admin/configure.tpl</note>
+      </trans-unit>
+      <trans-unit id="bb0c107d0f5f6bfaa63c2b7494baee02">
+        <source>The header could not be sent on this page because output had already started: look for a PHP notice or stray characters printed by another module.</source>
+        <target>En esta página no se ha podido emitir la cabecera porque la salida ya había empezado: busca un aviso de PHP o caracteres sueltos impresos por otro módulo.</target>
+        <note>Context: views/templates/admin/configure.tpl</note>
+      </trans-unit>
+      <trans-unit id="22bf3ac1f6b106734e4adafa05ada721">
+        <source>Multistore: the shop settings are saved for the selected shop context; the back office settings are global.</source>
+        <target>Multitienda: los ajustes de la tienda se guardan para el contexto de tienda seleccionado; los del panel son globales.</target>
+        <note>Context: views/templates/admin/configure.tpl</note>
+      </trans-unit>
+      <trans-unit id="157e05eecc333a95a35ddf3808ebc04c">
+        <source>Shop: the header is sent with the value</source>
+        <target>Tienda: la cabecera se emite con el valor</target>
+        <note>Context: views/templates/admin/configure.tpl</note>
+      </trans-unit>
+      <trans-unit id="557ceb718526bce75fd54161574030b0">
+        <source>Shop: the header is switched off.</source>
+        <target>Tienda: la cabecera está desactivada.</target>
+        <note>Context: views/templates/admin/configure.tpl</note>
+      </trans-unit>
+      <trans-unit id="727dacf566f5954f1183e9c7fce1f8ef">
+        <source>Back office: the header is sent with the value</source>
+        <target>Panel: la cabecera se emite con el valor</target>
+        <note>Context: views/templates/admin/configure.tpl</note>
+      </trans-unit>
+      <trans-unit id="f2742ec5d10313f63213ab11c9e30d79">
+        <source>Back office: the header is switched off.</source>
+        <target>Panel: la cabecera está desactivada.</target>
+        <note>Context: views/templates/admin/configure.tpl</note>
+      </trans-unit>
+      <trans-unit id="d5c17b8322ac09663e2c04be1f9cd50a">
+        <source>Choose the value for each area in its tab and save.</source>
+        <target>Elige el valor de cada zona en su pestaña y guarda.</target>
+        <note>Context: views/templates/admin/configure.tpl</note>
+      </trans-unit>
+      <trans-unit id="2a37e42d684c600572b691c966c06011">
+        <source>Help / how it works</source>
+        <target>Ayuda / cómo funciona</target>
+        <note>Context: views/templates/admin/configure.tpl</note>
+      </trans-unit>
+      <trans-unit id="d45685de4bc2bbd482a71f37db2410e2">
+        <source>The module adds the Referrer-Policy header to the pages generated by PrestaShop: the shop, the back office and its login page.</source>
+        <target>El módulo añade la cabecera Referrer-Policy a las páginas que genera PrestaShop: la tienda, el panel y su página de acceso.</target>
+        <note>Context: views/templates/admin/configure.tpl</note>
+      </trans-unit>
+      <trans-unit id="03faf8e6885dc56583b898f0f2f36642">
+        <source>The header tells the browser how much of the current address it may reveal to the next page and to third-party resources (images, scripts, fonts).</source>
+        <target>La cabecera le dice al navegador cuánta parte de la dirección actual puede revelar a la página siguiente y a los recursos de terceros (imágenes, scripts, fuentes).</target>
+        <note>Context: views/templates/admin/configure.tpl</note>
+      </trans-unit>
+      <trans-unit id="6aa1b0b70f8c607c5ce9dca23abac28e">
+        <source>If another Referrer-Policy header has already been set from PHP (a future native PrestaShop option or another module), the module neither replaces nor duplicates it.</source>
+        <target>Si ya hay otra cabecera Referrer-Policy puesta desde PHP (una futura opción nativa de PrestaShop u otro módulo), el módulo ni la sustituye ni la duplica.</target>
+        <note>Context: views/templates/admin/configure.tpl</note>
+      </trans-unit>
+      <trans-unit id="05f3d61e79aafcac44021bc8e8a61080">
+        <source>A header added by the web server itself (Apache, nginx, a CDN) cannot be seen from PHP: if your server already sends one, switch this module off for that area or remove it from the server, so that only one is sent.</source>
+        <target>Una cabecera añadida por el propio servidor web (Apache, nginx, una CDN) no se ve desde PHP: si tu servidor ya envía una, desactiva este módulo en esa zona o quítala del servidor, para que solo salga una.</target>
+        <note>Context: views/templates/admin/configure.tpl</note>
+      </trans-unit>
+      <trans-unit id="dbc768020a158a29e858618180ce4aa9">
+        <source>Static files (images, CSS, JavaScript) are served by the web server without going through PrestaShop, so they do not carry the header. This is expected: the policy that counts is the one of the page.</source>
+        <target>Los ficheros estáticos (imágenes, CSS, JavaScript) los sirve el servidor web sin pasar por PrestaShop, así que no llevan la cabecera. Es lo esperado: la política que cuenta es la de la página.</target>
+        <note>Context: views/templates/admin/configure.tpl</note>
+      </trans-unit>
+      <trans-unit id="03f0fdf83f995559ca47f2735e20ab06">
+        <source>With no-referrer the browser also sends the header Origin: null when a form is submitted. PrestaShop does not check it, but if a firewall or another module does, use same-origin in the back office.</source>
+        <target>Con no-referrer el navegador envía además la cabecera Origin: null al enviar un formulario. PrestaShop no la comprueba, pero si un cortafuegos u otro módulo sí lo hace, usa same-origin en el panel.</target>
+        <note>Context: views/templates/admin/configure.tpl</note>
+      </trans-unit>
+      <trans-unit id="b375fe98d9b20cfa72e7f98665c1967a">
+        <source>To check it, open the developer tools of the browser, go to the Network tab, click the request of the page and look for Referrer-Policy among the response headers.</source>
+        <target>Para comprobarlo, abre las herramientas de desarrollo del navegador, ve a la pestaña Red, pulsa la petición de la página y busca Referrer-Policy entre las cabeceras de respuesta.</target>
+        <note>Context: views/templates/admin/configure.tpl</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

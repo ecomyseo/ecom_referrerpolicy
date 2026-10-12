@@ -1,0 +1,37 @@
+/**
+ * Ecom Referrer Policy
+ *
+ * Estilos de la pantalla de configuración.
+ *
+ * @author    Ecom Experts <ecomyseo@gmail.com>
+ * @copyright 2026 Ecom Experts
+ * @license   https://opensource.org/licenses/AFL-3.0 Academic Free License 3.0 (AFL-3.0)
+ */
+select#ERP_POLICY_FRONT.fixed-width-xl,
+select#ERP_POLICY_BACK.fixed-width-xl {
+    width: auto !important;
+    max-width: 100%;
+}
+
+.erp-status .erp-help {
+    margin-top: 10px;
+}
+
+.erp-status .erp-help-toggle {
+    display: block;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.erp-status .erp-help-body {
+    display: none;
+    margin-top: 12px;
+}
+
+.erp-status .erp-help-body.erp-help-open {
+    display: block;
+}
+
+.erp-status .erp-help-body li {
+    margin-bottom: 6px;
+}
