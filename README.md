@@ -39,10 +39,12 @@ PrestaShop no envía `Referrer-Policy` (comprobado hasta la 9.2.0). Este módulo
 
 ## Instalación
 
-1. Descarga el código (**Code > Download ZIP**).
-2. Descomprime y renombra la carpeta a `ecom_referrerpolicy` (GitHub la llama
-   `ecom_referrerpolicy-main`, y PrestaShop necesita el nombre exacto).
-3. Comprímela de nuevo y súbela desde **Módulos > Gestor de módulos > Subir un módulo**.
+1. Descarga `ecom_referrerpolicy.zip` del
+   [último release](https://github.com/ecomyseo/ecom_referrerpolicy/releases/latest).
+2. Súbelo desde **Módulos > Gestor de módulos > Subir un módulo**.
+
+No uses «Source code (zip)» ni **Code > Download ZIP**: en esos la carpeta lleva otro nombre y
+PrestaShop no los acepta.
 
 O clona el repositorio directamente dentro de `modules/`:
 
@@ -150,8 +152,10 @@ back office, with a separate value for each.
   toggling a record's status in legacy back office lists. Without it you would land on the
   dashboard; the module sends you back to the list (`actionAdminStatusAfter`).
 - **No tables, no core changes, no calls to any external server.**
-- **Install:** download the ZIP, rename the folder to `ecom_referrerpolicy`, zip it again and
-  upload it from the Module Manager, or `git clone` it inside `modules/`.
+- **Install:** download `ecom_referrerpolicy.zip` from the
+  [latest release](https://github.com/ecomyseo/ecom_referrerpolicy/releases/latest) and upload
+  it from the Module Manager, or `git clone` the repository inside `modules/`. Do not use
+  "Source code (zip)": its folder name is not the one PrestaShop expects.
 - **Limits:** a header added by the web server itself (Apache, nginx, a CDN) cannot be seen
   from PHP, so keep only one; redirects resolved by Symfony before reaching a controller and
   static files do not carry the header.
